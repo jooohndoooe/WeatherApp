@@ -1,0 +1,11 @@
+.alert {
+    align-items: center;
+    height: 50px;
+    width: 30%;
+    border: 2px;
+    border-color: red;
+    border-style: solid;
+    font-size: 20px;
+    margin-left: 35%;
+    margin-right: 35%;
+}

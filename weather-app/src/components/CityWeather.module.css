@@ -1,0 +1,38 @@
+.cityWeather {
+    display: grid;
+    height: 50px;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    align-items: center;
+}
+
+.city {
+    grid-column: 1;
+}
+
+.precipitation {
+    grid-column: 2;
+}
+
+.highest-temprature {
+    grid-column: 3;
+}
+
+.lowest-temprature {
+    grid-column: 4;
+}
+
+.remove-button {
+    background-color: red;
+    grid-column: 5;
+    cursor: pointer;
+    margin: 13px;
+    border-style: none;
+    font-size: 20px;
+}
+
+.remove-button:hover {
+    border: 1px #000000;
+    border-style: solid;
+    margin: 12px;
+}

@@ -1,0 +1,22 @@
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.app-name {
+    margin: 20px;
+}
+
+.button-container {
+    cursor: pointer;
+    margin: 13px;
+    padding: 7px;
+    border-style: none;
+    font-size: 20px;
+}
+
+.button-container:hover {
+    border: 1px #000000;
+    border-style: solid;
+    margin: 12px;
+}
