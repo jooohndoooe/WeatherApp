@@ -1,0 +1,5 @@
+@WeatherApp_HostAddress = http://localhost:5048
+
+GET {{WeatherApp_HostAddress}}/api/weather
+
+###
